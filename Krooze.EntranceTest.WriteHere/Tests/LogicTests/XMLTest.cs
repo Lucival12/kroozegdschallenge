@@ -10,9 +10,7 @@ namespace Krooze.EntranceTest.WriteHere.Tests.LogicTests
         public CruiseDTO TranslateXML()
         {
             XmlSerializer serializer2 = new XmlSerializer(typeof(CruiseDTO));
-            CruiseDTO cruises = (CruiseDTO)serializer2.Deserialize(new XmlTextReader("Resources/Cruises.xml"));
-            foreach (var passenger in cruises.PassengerCruise)
-                passenger.Cruise = cruises;
+            CruiseDTO cruises = (CruiseDTO)serializer2.Deserialize(new XmlTextReader("C:/Users/admin/source/repos/Lucival12/kroozegdschallenge/Krooze.EntranceTest.WriteHere/Resources/Cruises.xml"));
 
             return cruises;
         }

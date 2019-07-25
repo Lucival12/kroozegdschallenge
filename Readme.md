@@ -42,3 +42,41 @@ Seu projeto será avaliado de acordo com os seguintes critérios:
  - [.NET Core 2.2](https://dotnet.microsoft.com/download/visual-studio-sdks?utm_source=getdotnetsdk&utm_medium=referral)
  - [.NET Core 2.0](https://dotnet.microsoft.com/download/visual-studio-sdks?utm_source=getdotnetsdk&utm_medium=referral)
  - [Visual Studio 2017 ou 2019](https://visualstudio.microsoft.com/pt-br/downloads/)
+
+ #########################################################################################################################
+
+# Caminhos para os endpoints de LogicTests:   
+
+- Teste XML: Acessar http://localhost:porta/api/WebTests/GetXML
+
+- Teste GetOtherTaxes: Acessar:
+	* http://localhost:porta/api/LogicTests/GetOtherTaxes/10000/1000/12000
+	* http://localhost:porta/api/LogicTests/GetOtherTaxes/10000/1000/11000
+	* http://localhost:porta/api/LogicTests/GetOtherTaxes/15000/1000/20000
+
+- Teste IsThereDiscount: Acessar:
+	* http://localhost:porta/api/LogicTests/IsThereDiscount/1000/700
+	* http://localhost:porta/api/LogicTests/IsThereDiscount/1000/1000
+	* http://localhost:porta/api/LogicTests/IsThereDiscount/1000/1200
+
+- Teste GetInstallments: Acessar:
+	* http://localhost:porta/api/LogicTests/GetInstallments/400
+	* http://localhost:porta/api/LogicTests/GetInstallments/40000
+	* http://localhost:porta/api/LogicTests/GetInstallments/100
+	* http://localhost:porta/api/LogicTests/GetInstallments/1000
+	* http://localhost:porta/api/LogicTests/GetInstallments/1001
+
+#  Caminhos para os endpoint de InjectionTests  
+
+- Teste GetCruises: Acessar:
+	* http://localhost:porta/api/InjectionTests/GetCruises/1
+	* http://localhost:porta/api/InjectionTests/GetCruises/2
+	* http://localhost:porta/api/InjectionTests/GetCruises/3
+	* http://localhost:porta/api/InjectionTests/GetCruises/4
+
+#  Caminhos para os endpoint de WebTest
+
+- Teste GetAllMovies: Acessar http://localhost:porta/api/WebTests/GetAllMovies
+
+- Teste GetDirector: Acessar http://localhost:porta/api/WebTests/GetDirector
+

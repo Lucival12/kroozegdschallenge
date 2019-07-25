@@ -40,11 +40,11 @@ namespace Krooze.EntranceTest.WriteHere.Structure.Model
 
     }
 
-    [XmlRoot(ElementName = "Pax")]
+    [XmlRoot("Cruises")]
     public class PassengerCruiseDTO
     {
         public CruiseDTO Cruise { get; set; }
-        [XmlAttribute(AttributeName = "PaxID")]
+        [XmlAttribute("PaxID")]
         public string PassengerCode { get; set; }
     }
 }

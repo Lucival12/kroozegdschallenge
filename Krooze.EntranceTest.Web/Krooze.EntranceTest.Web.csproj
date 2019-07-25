@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Krooze.EntranceTest.Tests\Krooze.EntranceTest.Tests.csproj" />
+    <ProjectReference Include="..\Krooze.EntranceTest.WriteHere\Krooze.EntranceTest.WriteHere.csproj" />
+  </ItemGroup>
+
 </Project>
